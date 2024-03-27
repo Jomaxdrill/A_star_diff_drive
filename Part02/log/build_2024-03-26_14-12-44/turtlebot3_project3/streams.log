@@ -1,0 +1,170 @@
+[0.087s] Invoking command in '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/src/turtlebot3_project3 -DCMAKE_INSTALL_PREFIX=/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3
+[0.148s] -- The C compiler identification is GNU 9.4.0
+[0.223s] -- The CXX compiler identification is GNU 9.4.0
+[0.381s] -- Check for working C compiler: /usr/bin/cc
+[0.446s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.447s] -- Detecting C compiler ABI info
+[0.514s] -- Detecting C compiler ABI info - done
+[0.520s] -- Detecting C compile features
+[0.521s] -- Detecting C compile features - done
+[0.522s] -- Check for working CXX compiler: /usr/bin/c++
+[0.589s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.590s] -- Detecting CXX compiler ABI info
+[0.659s] -- Detecting CXX compiler ABI info - done
+[0.665s] -- Detecting CXX compile features
+[0.666s] -- Detecting CXX compile features - done
+[0.667s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.682s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.682s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.731s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.733s] -- Checking for module 'bullet>=2.82'
+[0.741s] --   Found bullet, version 2.88
+[1.193s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.236s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.381s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.396s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.653s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.768s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.771s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.775s] -- Searching for dependencies of ignition-math6
+[1.776s] -- Looking for OGRE...
+[1.776s] -- OGRE_PREFIX_WATCH changed.
+[1.780s] -- Checking for module 'OGRE'
+[1.787s] --   Found OGRE, version 1.9.0
+[1.827s] -- Found Ogre Ghadamon (1.9.0)
+[1.999s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.006s] -- Looking for OGRE_Paging...
+[2.092s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.092s] -- Looking for OGRE_Terrain...
+[2.179s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.179s] -- Looking for OGRE_Property...
+[2.277s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.277s] -- Looking for OGRE_RTShaderSystem...
+[2.447s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.447s] -- Looking for OGRE_Volume...
+[2.534s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.534s] -- Looking for OGRE_Overlay...
+[2.607s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[7.001s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.001s] -- Looking for ignition-transport8 -- found version 8.5.0
+[7.002s] -- Searching for dependencies of ignition-transport8
+[7.623s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.625s] -- Checking for module 'libzmq >= 4'
+[7.635s] --   Found libzmq , version 4.3.2
+[7.680s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.693s] -- Checking for module 'uuid'
+[7.702s] --   Found uuid, version 2.34.0
+[7.746s] -- Found UUID: TRUE  
+[7.747s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[7.747s] -- Searching for dependencies of ignition-msgs5
+[8.086s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[8.086s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.089s] -- Checking for module 'tinyxml2'
+[8.098s] --   Found tinyxml2, version 6.2.0
+[8.136s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[8.137s] -- Looking for ignition-common3 -- found version 3.17.0
+[8.137s] -- Searching for dependencies of ignition-common3
+[8.145s] -- Looking for dlfcn.h - found
+[8.154s] -- Looking for libdl - found
+[8.156s] -- Found DL: TRUE  
+[8.177s] -- Searching for <ignition-common3> component [graphics]
+[8.178s] -- Looking for ignition-common3-graphics -- found version 3.17.0
+[8.179s] -- Searching for dependencies of ignition-common3-graphics
+[8.179s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.180s] -- Looking for ignition-fuel_tools4 -- found version 4.9.1
+[8.180s] -- Searching for dependencies of ignition-fuel_tools4
+[8.273s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[8.278s] -- Checking for module 'jsoncpp'
+[8.286s] --   Found jsoncpp, version 1.7.4
+[8.325s] -- Found JSONCPP: TRUE  
+[8.329s] -- Checking for module 'libzip'
+[8.338s] --   Found libzip, version 1.5.1
+[8.377s] -- Found ZIP: TRUE  
+[8.378s] -- Looking for ignition-common3 -- found version 3.17.0
+[8.378s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.378s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[8.381s] -- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)
+[8.381s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[8.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.409s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[8.816s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.221s] -- Found FastRTPS: /opt/ros/galactic/include  
+[9.832s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.883s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[9.928s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[9.959s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[9.961s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[9.973s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[9.974s] -- Found Threads: TRUE  
+[10.056s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[10.101s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[10.146s] -- Configuring done
+[10.154s] -- Generating done
+[10.155s] -- Build files have been written to: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3
+[10.163s] Invoked command in '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/src/turtlebot3_project3 -DCMAKE_INSTALL_PREFIX=/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3
+[10.166s] Invoking command in '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3 -- -j16 -l16
+[10.191s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[10.218s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[16.517s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[16.793s] [100%] Built target turtlebot3_drive
+[16.804s] Invoked command in '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3 -- -j16 -l16
+[16.829s] Invoking command in '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3
+[16.835s] -- Install configuration: ""
+[16.835s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive
+[16.841s] -- Set runtime path of "/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive" to ""
+[16.841s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch
+[16.841s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch/spawn_turtlebot3.launch.py
+[16.841s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch/robot_state_publisher.launch.py
+[16.841s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch/competition_world.launch.py
+[16.841s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch/empty_world.launch.py
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.config
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.sdf
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model-1_4.sdf
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.config
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.sdf
+[16.842s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model-1_4.sdf
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/hexagon.dae
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/wall.dae
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/model.config
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/r200.dae
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/burger_base.dae
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_base.dae
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/tire.dae
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/lds.dae
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//rviz
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//rviz/tb3_gazebo.rviz
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//urdf
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//urdf/turtlebot3_waffle.urdf
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//urdf/common_properties.urdf
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//worlds
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//worlds/empty_world.world
+[16.843s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//worlds/competition_world.world
+[16.844s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/include/
+[16.844s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/include//turtlebot3_project3
+[16.844s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/include//turtlebot3_project3/turtlebot3_drive.hpp
+[16.844s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/lib/turtlebot3_project3/teleop.py
+[16.844s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/ament_index/resource_index/package_run_dependencies/turtlebot3_project3
+[16.845s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/ament_index/resource_index/parent_prefix_path/turtlebot3_project3
+[16.845s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.sh
+[16.845s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.dsv
+[16.845s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.sh
+[16.845s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.dsv
+[16.845s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.bash
+[16.845s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.sh
+[16.845s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.zsh
+[16.846s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.dsv
+[16.846s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/package.dsv
+[16.846s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/ament_index/resource_index/packages/turtlebot3_project3
+[16.846s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.846s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.846s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config.cmake
+[16.846s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config-version.cmake
+[16.846s] -- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/package.xml
+[16.847s] Invoked command in '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3

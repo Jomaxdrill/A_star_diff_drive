@@ -1,0 +1,347 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (turtlebot3_project3) JobQueued: {'identifier': 'turtlebot3_project3', 'dependencies': OrderedDict()}
+[0.000169] (turtlebot3_project3) JobStarted: {'identifier': 'turtlebot3_project3'}
+[0.083225] (turtlebot3_project3) JobProgress: {'identifier': 'turtlebot3_project3', 'progress': 'cmake'}
+[0.084049] (turtlebot3_project3) Command: {'cmd': ['/usr/bin/cmake', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/src/turtlebot3_project3', '-DCMAKE_INSTALL_PREFIX=/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3'], 'cwd': '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jomaxdrill'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/jomaxdrill'), ('OLDPWD', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jomaxdrill'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/46842_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/eslac/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/eslac/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'dce33c8b-d928-4057-b06b-1c631652f73c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install/turtlebot3_project3:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install/turtlebot3_project3:/opt/ros/galactic'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.099436] (-) TimerEvent: {}
+[0.148287] (turtlebot3_project3) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199549] (-) TimerEvent: {}
+[0.223238] (turtlebot3_project3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.299921] (-) TimerEvent: {}
+[0.381144] (turtlebot3_project3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.400126] (-) TimerEvent: {}
+[0.446401] (turtlebot3_project3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.446756] (turtlebot3_project3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500233] (-) TimerEvent: {}
+[0.514128] (turtlebot3_project3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.520504] (turtlebot3_project3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.520737] (turtlebot3_project3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.522364] (turtlebot3_project3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.589472] (turtlebot3_project3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.590100] (turtlebot3_project3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600458] (-) TimerEvent: {}
+[0.658619] (turtlebot3_project3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.665578] (turtlebot3_project3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.665977] (turtlebot3_project3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.667188] (turtlebot3_project3) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.681626] (turtlebot3_project3) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.681782] (turtlebot3_project3) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700563] (-) TimerEvent: {}
+[0.730777] (turtlebot3_project3) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[0.733471] (turtlebot3_project3) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.741274] (turtlebot3_project3) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[0.800686] (-) TimerEvent: {}
+[0.901021] (-) TimerEvent: {}
+[1.001325] (-) TimerEvent: {}
+[1.101617] (-) TimerEvent: {}
+[1.192735] (turtlebot3_project3) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.201801] (-) TimerEvent: {}
+[1.236350] (turtlebot3_project3) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.302123] (-) TimerEvent: {}
+[1.380505] (turtlebot3_project3) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.396346] (turtlebot3_project3) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.402309] (-) TimerEvent: {}
+[1.502753] (-) TimerEvent: {}
+[1.603160] (-) TimerEvent: {}
+[1.652760] (turtlebot3_project3) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.703296] (-) TimerEvent: {}
+[1.768416] (turtlebot3_project3) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[1.770767] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.774617] (turtlebot3_project3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.775845] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.776244] (turtlebot3_project3) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.779585] (turtlebot3_project3) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.787578] (turtlebot3_project3) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.803490] (-) TimerEvent: {}
+[1.826692] (turtlebot3_project3) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.903595] (-) TimerEvent: {}
+[1.999477] (turtlebot3_project3) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.003682] (-) TimerEvent: {}
+[2.006184] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.092383] (turtlebot3_project3) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.092607] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.103807] (-) TimerEvent: {}
+[2.179183] (turtlebot3_project3) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.179385] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.203913] (-) TimerEvent: {}
+[2.276595] (turtlebot3_project3) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.276946] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.304041] (-) TimerEvent: {}
+[2.404416] (-) TimerEvent: {}
+[2.447266] (turtlebot3_project3) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.447457] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.504529] (-) TimerEvent: {}
+[2.534095] (turtlebot3_project3) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.534266] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.604625] (-) TimerEvent: {}
+[2.607412] (turtlebot3_project3) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.704741] (-) TimerEvent: {}
+[2.805038] (-) TimerEvent: {}
+[2.905331] (-) TimerEvent: {}
+[3.005621] (-) TimerEvent: {}
+[3.105939] (-) TimerEvent: {}
+[3.206228] (-) TimerEvent: {}
+[3.306513] (-) TimerEvent: {}
+[3.407107] (-) TimerEvent: {}
+[3.508056] (-) TimerEvent: {}
+[3.608420] (-) TimerEvent: {}
+[3.708733] (-) TimerEvent: {}
+[3.809163] (-) TimerEvent: {}
+[3.909509] (-) TimerEvent: {}
+[4.009798] (-) TimerEvent: {}
+[4.110094] (-) TimerEvent: {}
+[4.210431] (-) TimerEvent: {}
+[4.310880] (-) TimerEvent: {}
+[4.411196] (-) TimerEvent: {}
+[4.511513] (-) TimerEvent: {}
+[4.611860] (-) TimerEvent: {}
+[4.712145] (-) TimerEvent: {}
+[4.812443] (-) TimerEvent: {}
+[4.912766] (-) TimerEvent: {}
+[5.013121] (-) TimerEvent: {}
+[5.113469] (-) TimerEvent: {}
+[5.213787] (-) TimerEvent: {}
+[5.314082] (-) TimerEvent: {}
+[5.414378] (-) TimerEvent: {}
+[5.514689] (-) TimerEvent: {}
+[5.615029] (-) TimerEvent: {}
+[5.715850] (-) TimerEvent: {}
+[5.816151] (-) TimerEvent: {}
+[5.916530] (-) TimerEvent: {}
+[6.017160] (-) TimerEvent: {}
+[6.117461] (-) TimerEvent: {}
+[6.217765] (-) TimerEvent: {}
+[6.318076] (-) TimerEvent: {}
+[6.418385] (-) TimerEvent: {}
+[6.518722] (-) TimerEvent: {}
+[6.619218] (-) TimerEvent: {}
+[6.719552] (-) TimerEvent: {}
+[6.819864] (-) TimerEvent: {}
+[6.920186] (-) TimerEvent: {}
+[7.000683] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[7.001517] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.5.0\n'}
+[7.001745] (turtlebot3_project3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[7.020346] (-) TimerEvent: {}
+[7.120653] (-) TimerEvent: {}
+[7.220968] (-) TimerEvent: {}
+[7.321290] (-) TimerEvent: {}
+[7.421628] (-) TimerEvent: {}
+[7.521935] (-) TimerEvent: {}
+[7.622925] (turtlebot3_project3) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[7.623112] (-) TimerEvent: {}
+[7.625542] (turtlebot3_project3) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[7.634768] (turtlebot3_project3) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[7.679618] (turtlebot3_project3) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[7.693507] (turtlebot3_project3) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[7.702216] (turtlebot3_project3) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[7.723248] (-) TimerEvent: {}
+[7.746011] (turtlebot3_project3) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[7.747298] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[7.747499] (turtlebot3_project3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[7.823394] (-) TimerEvent: {}
+[7.923709] (-) TimerEvent: {}
+[8.024051] (-) TimerEvent: {}
+[8.085833] (turtlebot3_project3) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[8.086159] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.089420] (turtlebot3_project3) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[8.098294] (turtlebot3_project3) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[8.124181] (-) TimerEvent: {}
+[8.135769] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[8.136615] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.0\n'}
+[8.137018] (turtlebot3_project3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[8.145365] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[8.154515] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[8.156307] (turtlebot3_project3) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[8.177537] (turtlebot3_project3) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[8.178358] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.17.0\n'}
+[8.178676] (turtlebot3_project3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[8.178886] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.180311] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.9.1\n'}
+[8.180606] (turtlebot3_project3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[8.224362] (-) TimerEvent: {}
+[8.272664] (turtlebot3_project3) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[8.278080] (turtlebot3_project3) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[8.286508] (turtlebot3_project3) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[8.324522] (-) TimerEvent: {}
+[8.324841] (turtlebot3_project3) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[8.329073] (turtlebot3_project3) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[8.337617] (turtlebot3_project3) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[8.377421] (turtlebot3_project3) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[8.377710] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.17.0\n'}
+[8.377962] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[8.378204] (turtlebot3_project3) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.11.0\n'}
+[8.380710] (turtlebot3_project3) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)\n'}
+[8.381228] (turtlebot3_project3) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[8.405105] (turtlebot3_project3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.408692] (turtlebot3_project3) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[8.424633] (-) TimerEvent: {}
+[8.524944] (-) TimerEvent: {}
+[8.625394] (-) TimerEvent: {}
+[8.725787] (-) TimerEvent: {}
+[8.816393] (turtlebot3_project3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[8.825923] (-) TimerEvent: {}
+[8.926228] (-) TimerEvent: {}
+[9.026611] (-) TimerEvent: {}
+[9.126945] (-) TimerEvent: {}
+[9.221364] (turtlebot3_project3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[9.227079] (-) TimerEvent: {}
+[9.327405] (-) TimerEvent: {}
+[9.427708] (-) TimerEvent: {}
+[9.527990] (-) TimerEvent: {}
+[9.628286] (-) TimerEvent: {}
+[9.728584] (-) TimerEvent: {}
+[9.828922] (-) TimerEvent: {}
+[9.832180] (turtlebot3_project3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.882873] (turtlebot3_project3) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[9.928307] (turtlebot3_project3) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[9.929000] (-) TimerEvent: {}
+[9.959511] (turtlebot3_project3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[9.961162] (turtlebot3_project3) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[9.972629] (turtlebot3_project3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[9.973623] (turtlebot3_project3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.029115] (-) TimerEvent: {}
+[10.056177] (turtlebot3_project3) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[10.101299] (turtlebot3_project3) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[10.129379] (-) TimerEvent: {}
+[10.146189] (turtlebot3_project3) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.153683] (turtlebot3_project3) StdoutLine: {'line': b'-- Generating done\n'}
+[10.155373] (turtlebot3_project3) StdoutLine: {'line': b'-- Build files have been written to: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3\n'}
+[10.163160] (turtlebot3_project3) CommandEnded: {'returncode': 0}
+[10.163829] (turtlebot3_project3) JobProgress: {'identifier': 'turtlebot3_project3', 'progress': 'build'}
+[10.165560] (turtlebot3_project3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3', '--', '-j16', '-l16'], 'cwd': '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jomaxdrill'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/jomaxdrill'), ('OLDPWD', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jomaxdrill'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/46842_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/eslac/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/eslac/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'dce33c8b-d928-4057-b06b-1c631652f73c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install/turtlebot3_project3:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install/turtlebot3_project3:/opt/ros/galactic'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[10.191198] (turtlebot3_project3) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[10.218379] (turtlebot3_project3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[10.229580] (-) TimerEvent: {}
+[10.329920] (-) TimerEvent: {}
+[10.430372] (-) TimerEvent: {}
+[10.530762] (-) TimerEvent: {}
+[10.631247] (-) TimerEvent: {}
+[10.731686] (-) TimerEvent: {}
+[10.832238] (-) TimerEvent: {}
+[10.932554] (-) TimerEvent: {}
+[11.032926] (-) TimerEvent: {}
+[11.133309] (-) TimerEvent: {}
+[11.233802] (-) TimerEvent: {}
+[11.334110] (-) TimerEvent: {}
+[11.434451] (-) TimerEvent: {}
+[11.535117] (-) TimerEvent: {}
+[11.635456] (-) TimerEvent: {}
+[11.735821] (-) TimerEvent: {}
+[11.836222] (-) TimerEvent: {}
+[11.936719] (-) TimerEvent: {}
+[12.037058] (-) TimerEvent: {}
+[12.137495] (-) TimerEvent: {}
+[12.237883] (-) TimerEvent: {}
+[12.338311] (-) TimerEvent: {}
+[12.439526] (-) TimerEvent: {}
+[12.539987] (-) TimerEvent: {}
+[12.640373] (-) TimerEvent: {}
+[12.740793] (-) TimerEvent: {}
+[12.841300] (-) TimerEvent: {}
+[12.941810] (-) TimerEvent: {}
+[13.042487] (-) TimerEvent: {}
+[13.142884] (-) TimerEvent: {}
+[13.243304] (-) TimerEvent: {}
+[13.343702] (-) TimerEvent: {}
+[13.444049] (-) TimerEvent: {}
+[13.544391] (-) TimerEvent: {}
+[13.644829] (-) TimerEvent: {}
+[13.745270] (-) TimerEvent: {}
+[13.845619] (-) TimerEvent: {}
+[13.946067] (-) TimerEvent: {}
+[14.046372] (-) TimerEvent: {}
+[14.146720] (-) TimerEvent: {}
+[14.247313] (-) TimerEvent: {}
+[14.347707] (-) TimerEvent: {}
+[14.448017] (-) TimerEvent: {}
+[14.548380] (-) TimerEvent: {}
+[14.648736] (-) TimerEvent: {}
+[14.749352] (-) TimerEvent: {}
+[14.849695] (-) TimerEvent: {}
+[14.950099] (-) TimerEvent: {}
+[15.050465] (-) TimerEvent: {}
+[15.150922] (-) TimerEvent: {}
+[15.251436] (-) TimerEvent: {}
+[15.354255] (-) TimerEvent: {}
+[15.454602] (-) TimerEvent: {}
+[15.554939] (-) TimerEvent: {}
+[15.655412] (-) TimerEvent: {}
+[15.755748] (-) TimerEvent: {}
+[15.856201] (-) TimerEvent: {}
+[15.956549] (-) TimerEvent: {}
+[16.056980] (-) TimerEvent: {}
+[16.157280] (-) TimerEvent: {}
+[16.257587] (-) TimerEvent: {}
+[16.357918] (-) TimerEvent: {}
+[16.458271] (-) TimerEvent: {}
+[16.517436] (turtlebot3_project3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[16.558426] (-) TimerEvent: {}
+[16.658868] (-) TimerEvent: {}
+[16.759191] (-) TimerEvent: {}
+[16.792621] (turtlebot3_project3) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[16.804411] (turtlebot3_project3) CommandEnded: {'returncode': 0}
+[16.821218] (turtlebot3_project3) JobProgress: {'identifier': 'turtlebot3_project3', 'progress': 'install'}
+[16.828364] (turtlebot3_project3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3'], 'cwd': '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jomaxdrill'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/jomaxdrill'), ('OLDPWD', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jomaxdrill'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/46842_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/eslac/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/eslac/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'dce33c8b-d928-4057-b06b-1c631652f73c'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install/turtlebot3_project3:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/build/turtlebot3_project3'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3:/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/install/turtlebot3_project3:/opt/ros/galactic'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[16.834909] (turtlebot3_project3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.835083] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive\n'}
+[16.840652] (turtlebot3_project3) StdoutLine: {'line': b'-- Set runtime path of "/home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/lib/turtlebot3_project3/turtlebot3_drive" to ""\n'}
+[16.840834] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch\n'}
+[16.840954] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch/spawn_turtlebot3.launch.py\n'}
+[16.841160] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch/robot_state_publisher.launch.py\n'}
+[16.841381] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch/competition_world.launch.py\n'}
+[16.841533] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//launch/empty_world.launch.py\n'}
+[16.841639] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models\n'}
+[16.841736] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle\n'}
+[16.841830] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.config\n'}
+[16.841938] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model.sdf\n'}
+[16.842125] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[16.842209] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world\n'}
+[16.842339] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.config\n'}
+[16.842431] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model.sdf\n'}
+[16.842524] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/model-1_4.sdf\n'}
+[16.842615] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes\n'}
+[16.842797] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[16.842883] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_world/meshes/wall.dae\n'}
+[16.842919] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common\n'}
+[16.842950] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/model.config\n'}
+[16.842984] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes\n'}
+[16.843016] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[16.843048] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/r200.dae\n'}
+[16.843079] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[16.843109] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[16.843139] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/tire.dae\n'}
+[16.843169] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//models/turtlebot3_common/meshes/lds.dae\n'}
+[16.843198] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//rviz\n'}
+[16.843357] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//rviz/tb3_gazebo.rviz\n'}
+[16.843441] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//urdf\n'}
+[16.843502] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//urdf/turtlebot3_waffle.urdf\n'}
+[16.843536] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//urdf/common_properties.urdf\n'}
+[16.843578] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//worlds\n'}
+[16.843609] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//worlds/empty_world.world\n'}
+[16.843640] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3//worlds/competition_world.world\n'}
+[16.843667] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/include/\n'}
+[16.843860] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/include//turtlebot3_project3\n'}
+[16.844019] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/include//turtlebot3_project3/turtlebot3_drive.hpp\n'}
+[16.844113] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/lib/turtlebot3_project3/teleop.py\n'}
+[16.844279] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/ament_index/resource_index/package_run_dependencies/turtlebot3_project3\n'}
+[16.844777] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/ament_index/resource_index/parent_prefix_path/turtlebot3_project3\n'}
+[16.844956] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.sh\n'}
+[16.845064] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/environment/ament_prefix_path.dsv\n'}
+[16.845164] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.sh\n'}
+[16.845260] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/environment/path.dsv\n'}
+[16.845348] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.bash\n'}
+[16.845442] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.sh\n'}
+[16.845497] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.zsh\n'}
+[16.845660] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/local_setup.dsv\n'}
+[16.845766] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/package.dsv\n'}
+[16.845805] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/ament_index/resource_index/packages/turtlebot3_project3\n'}
+[16.845842] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.845878] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.845909] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config.cmake\n'}
+[16.845939] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/cmake/turtlebot3_project3Config-version.cmake\n'}
+[16.845973] (turtlebot3_project3) StdoutLine: {'line': b'-- Installing: /home/jomaxdrill/projects/python/ENPM661/Project3_phase2/A_star_diff_drive/Part02/install/turtlebot3_project3/share/turtlebot3_project3/package.xml\n'}
+[16.847267] (turtlebot3_project3) CommandEnded: {'returncode': 0}
+[16.859659] (-) TimerEvent: {}
+[16.960861] (-) TimerEvent: {}
+[17.020305] (turtlebot3_project3) JobEnded: {'identifier': 'turtlebot3_project3', 'rc': 0}
+[17.021167] (-) EventReactorShutdown: {}
