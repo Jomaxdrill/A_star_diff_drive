@@ -3,96 +3,53 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-import sys
-import select
-import tty
-import termios
-from pynput import keyboard
+import os
+import time
 
-# Define key codes
-LIN_VEL_STEP_SIZE = 0.1
-ANG_VEL_STEP_SIZE = 0.1
+class GoalPath(Node):
 
-class KeyboardControlNode(Node):
+	def __init__(self,commands):
+		super().__init__('goal_path')
 
-    def __init__(self):
-        super().__init__('keyboard_control_node')
+		self.cmd_vel_pub = self.create_publisher(Twist, '/cmd_vel', 3)
 
-        self.cmd_vel_pub = self.create_publisher(Twist, '/cmd_vel', 10)
-
-        self.settings = termios.tcgetattr(sys.stdin)
-
-    def getKey(self):
-        """Get the key that is pressed"""
-        tty.setraw(sys.stdin.fileno())
-        rlist, _, _ = select.select([sys.stdin], [], [], 0.1)
-        if rlist:
-            key = sys.stdin.read(1)
-        else:
-            key = ''
-
-        termios.tcsetattr(sys.stdin, termios.TCSADRAIN, self.settings)
-        return key
-
-    def run_keyboard_control(self):
-        """Run the keyboard control node"""
-        
-        self.msg = """
-        Control Your Car!
-        ---------------------------
-        Moving around:
-            w
-        a    s    d
-
-        q : force stop
-
-        Esc to quit
-        """
-
-        self.get_logger().info(self.msg)
-        velocity_message = Twist()
-        linear_vel=0.0
-        angular_vel=0.0
-
-
-        while True:
-            key = self.getKey()
-            if key is not None:
-                if key == '\x1b':  # Escape key
-                    break
-                elif key == 'q':  # Quit
-                    linear_vel=0.0
-                    angular_vel=0.0
-                elif key == 'w':  # Forward
-                    linear_vel += LIN_VEL_STEP_SIZE
-                elif key == 's':  # Reverse
-                    linear_vel -= LIN_VEL_STEP_SIZE
-                elif key == 'd':  # Right
-                    angular_vel -= ANG_VEL_STEP_SIZE
-                elif key == 'a':  # Left
-                    angular_vel += ANG_VEL_STEP_SIZE
-
-
-                if angular_vel>1.0:
-                        angular_vel=1.0
-                if angular_vel<-1.0:
-                    angular_vel=-1.0
-
-                print("Steer Angle",angular_vel)
-                print("Linear Velocity",linear_vel)
-                
-                # Publish the twist message
-                velocity_message.linear.x = linear_vel
-                velocity_message.angular.z = angular_vel
-                
-                self.cmd_vel_pub.publish(velocity_message)
+	def run_command_sequence(self, vel_commands):
+		self.msg = """
+		Running A* algorithm solution action command sequence
+		---------------------------
+		"""
+		for vel in vel_commands:
+			velocities_msg = Twist()
+			velocities_msg.linear.x = vel[0]
+			velocities_msg.angular.z = vel[1]
+			#publish the message
+			print(f"Linear Velocity x {velocities_msg.linear.x} m/s, Steer angle {velocities_msg.angular.z} rad/s") #m/s
+			self.cmd_vel_pub.publish(velocities_msg)
+			#TODO: # Adjust the delay time as needed to cover the distance wanted according to simulation
+			if vel[1] == 0.0:
+				time.sleep(5.2)
+			else:
+				time.sleep(1)
 
 def main(args=None):
-    rclpy.init(args=args)
-    node = KeyboardControlNode()
-    node.run_keyboard_control()
-    node.destroy_node()
-    rclpy.shutdown()
+	rclpy.init(args=args)
+	# Get the current working directory
+	current_directory = os.getcwd()
+	additional_path = 'src/turtlebot3_project3/scripts/'
+	full_path = os.path.join(current_directory, additional_path)
+	print(full_path)
+	file = open(f'{full_path}command_set_solution.txt', "r")
+	data = file.readlines()
+	file.close()
+	vel_values = [vel.strip().replace('\n','') for vel in data]
+	vel_commands = []
+	for command in vel_values:
+		lin,rot = command.split(',')
+		vel_commands.append((float(lin), float(rot)))
+	node = GoalPath(len(vel_commands))
+	node.run_command_sequence(vel_commands)
+	node.destroy_node()
+	rclpy.shutdown()
 
 if __name__ == '__main__':
-    main()
+	main()
